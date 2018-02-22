@@ -1,5 +1,6 @@
 // 아무것도 하지 않더라도 -> 전역 객체가 이미 존재하는 상태!! .... (( console.log() 등이 사용가능 한 이유 ))
-// Node.js 는 전역객체로 global, process가 존재 (global -> browser에서의 window. process -> browser에서의 document)
+// Javascript는 하나의 전역 객체(Global Object) 내에 존재한다고 생각하면 된다. __ 하나의 context...
+// Node.js 는 전역객체로 global, process가 존재 (global -> browser에서의 window(전역객체). process -> browser에서의 document)
 
 // var - code block scope 무시.. 함수로만 scope 결정됨.
 

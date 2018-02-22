@@ -36,3 +36,5 @@ for (let property in obj1) {
 //     console.log(obj);
 // }
 // for of를 이용해서는 객체를 돌 수 없다 !!
+// 객체가 iterable한 것은 아니므로 for - of는 불가능... 배열, Map, Set 등만 가능..
+// 객체가 Map의 형태인 것은 맞지만!! iterable 한 것은 아니다!!
